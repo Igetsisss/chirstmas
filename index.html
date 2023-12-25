@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - It&#39;s better to know when the Christmas  will be :)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> </head>
+<body>
+<div id="text">
+  Present Unwrapping Countdown
+</div>
+<div id="timer">
+  <div class="dcon ">
+  <div id="d" class="time"></div>
+  </div>
+  <div class="hcon ">
+  <div id="h" class="time"></div>
+  </div>
+  <div class="mcon ">
+  <div id="m" class="time"></div>
+  </div>
+  <div class="scon ">
+  <div id="s" class="time"></div>
+  </div>
+</div>
+<div id="stars"></div>
+<div class="tree">
+<svg viewBox="0 0 300 400">
+<path fill="#3E2723" stroke="black" stroke-width="2px";
+  d = "M125 300,
+       L125 400,
+       L175 400,
+       L175 300,
+       L125 300"
+/>
+<path fill="green" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       C100 0,150 120,190 100,
+       C190 100,140 120,100 90,
+       C100 90,50 120,10 100,
+       C10 100, 50 120, 100 0"
+       transform="translate(-30,160)scale(1.8)"
+/>
+<path fill="white" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       L100 0,135 60,
+       C135 60,140 100,100 60,
+       C100 60,60 100,65 60,
+       L65 60, 100 0"
+      transform="translate(-60,160)scale(2.1)";
+/>
+<path fill="green" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       C100 0,150 120,190 100,
+       C190 100,140 120,100 90,
+       C100 90,50 120,10 100,
+       C10 100, 50 120, 100 0"
+       transform="translate(-10,120)scale(1.6)"
+/>
+<path fill="white" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       L100 0,135 60,
+       C135 60,140 100,100 60,
+       C100 60,60 100,65 60,
+       L65 60, 100 0"
+      transform="translate(-30,120)scale(1.8)";
+/>
+<path fill="green" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       C100 0,150 120,190 100,
+       C190 100,140 120,100 90,
+       C100 90,50 120,10 100,
+       C10 100, 50 120, 100 0"
+       transform="translate(10,80)scale(1.4)"
+/>
+<path fill="white" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       L100 0,135 60,
+       C135 60,140 100,100 60,
+       C100 60,60 100,65 60,
+       L65 60, 100 0"
+      transform="translate(-10,80)scale(1.6)";
+/>
+<path fill="green" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       C100 0,150 120,190 100,
+       C190 100,140 120,100 90,
+       C100 90,50 120,10 100,
+       C10 100, 50 120, 100 0"
+       transform="translate(30,40)scale(1.2)"
+/>
+<path fill="white" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       L100 0,135 60,
+       C135 60,140 100,100 60,
+       C100 60,60 100,65 60,
+       L65 60, 100 0"
+      transform="translate(10,40)scale(1.4)";
+/>
+<path fill="green" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       C100 0,150 120,190 100,
+       C190 100,140 120,100 90,
+       C100 90,50 120,10 100,
+       C10 100, 50 120, 100 0"
+      transform="translate(50,0)";
+/>
+<path fill="white" stroke="black" stroke-width="2px";
+  d = "M100 0,
+       L100 0,135 60,
+       C135 60,140 100,100 60,
+       C100 60,60 100,65 60,
+       L65 60, 100 0"
+      transform="translate(50,0)";
+/>
+</svg>
+<div class="light one"></div>
+<div class="light two"></div>
+<div class="light thr"></div>
+<div class="light for"></div>
+<div class="light fiv"></div>
+<div class="light six"></div>
+<div class="light sev"></div>
+<div class="light eig"></div>
+<div class="light nin"></div>
+<div class="light ten"></div>
+<div class="light elv"></div>
+<div class="trestar"><i class="fas fa-star"></i></div>
+</div>
+<div class="house"> 
+<svg viewBox="0 0 200 200">
+<path fill = "#8D6E63" stroke="#3E2723" stroke-width="4";
+  d = "M25 100,
+       L100 25,
+       L175 100,
+       L175 175,
+       C175 175, 174 199, 150 200,
+       L150 200,
+       L50 200,
+       C50 200, 26 199, 25 175,
+       L25 175,
+       L25 100"
+  />
+<path fill = "#FFB74D" stroke="#3E2723" stroke-width="4";
+   d = "M79 100,
+        L120 100,
+        C120 100, 124 100 , 125 105,
+        L125 145,
+        C125 145, 125 149 , 120 150,
+        L80 150,
+        C80 150, 76 150 , 75 145,
+        L75 105,
+        C75 105, 75 101 , 80 100"          
+   />
+<path stroke="#3E2723" stroke-width="4"; 
+  d= "M 73 52,
+      L 127 52,
+      M 47 79,
+      L 153 79,
+      M 25 106,
+      L 75 106,
+      M 125 106,
+      L 175 106,
+      M 25 133, 
+      L 75 133,
+      M 125 133,
+      L 175 133,
+      M 25 160,
+      L 175 160,
+      M 28 187,
+      L 172 187,
+      M 100 100,
+      L 100 150,
+      M 75 125,
+      L 125 125"      
+  />
+  <path fill = "white" stroke = "#3E2723" stroke-width = "4";
+  d= "M25 110,
+      C25 110, -25 125 ,25 75,
+      L85 15,
+      C85 15, 100 0, 115 15,
+      L175 75,
+      C175 75, 225 125, 175 110,
+      L100 35,
+      L25 110,"
+  />
+<path fill = "white" stroke = "#3E2723" stroke-width = "4";
+  d=  "M 170 70,
+       L 170 17,
+       C 170 17, 169 16, 168 15,
+       L 132 15,
+       C 132 15, 131 16, 130 17,
+       L 130 30,
+       L 170 70" 
+/>
+<path fill="rgba(0, 0, 0,0.5)";
+   d= "M 178 109,
+       L 178 175,
+       C 178 175, 177 199 , 150 200,
+       L 160 200,
+       L 160 92"
+/>
+<path fill = "rgba(0,0,0,0.5)";
+   d= "M 172 70,
+       L 172 15,
+       C 172 15, 169 13, 166 13,
+       L 155 13,
+       L 155 52" 
+/>
+</svg>
+<div class="window"></div>
+</div>
+<div class="land">
+<svg viewBox="0 0 200 100"  >  
+    <path fill="white" 
+    d="M0 15,
+       C 0 15, 50 35, 75 15,
+       C 75 25, 100 5, 125 25, 
+       C125 25,150 45, 200 20,
+       L200 100,
+       L0 100"
+    />
+</svg>
+
+</div> 
+<div id="snowing"></div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
