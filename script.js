@@ -1,5 +1,5 @@
 ////////////TIMER//////////////////
-var xmas = new Date("Dec 25,2023 07:30:00").getTime();
+var xmas = new Date("Dec 25,2024 07:30:00").getTime();
 ///////////////////////////////////
 function animate(id,val){
 var elem = document.getElementById(id);
